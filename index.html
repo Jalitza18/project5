@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>project 5
+            
+        </title>
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+            *{font-family: 'Nerko One', cursive;}
+            h1{
+                display: inline-block;
+                    
+                    width: 100px;
+                animation-name: p5;
+                animation-duration: 5s;
+            }
+            @keyframes p5{
+                from{
+                    color: aliceblue;
+                }
+                to{
+                    color: aqua;
+                }
+            }
+            
+             h2{
+                animation-name: p5;
+                animation-duration: 5s;
+            }
+            @keyframes p5{
+                from{
+                    color: aliceblue;
+                }
+                to{
+                    color: aqua;
+                }
+            }
+            
+        
+            #wrapper{
+      max-width:1200px;
+      margin:0 auto;
+    }
+    .flex-container{
+        display: flex;
+        position:center;
+    }
+
+    .box{
+      width:200px;
+      border:solid 1px gray;
+      padding:5px;
+      border-radius: 10px;
+      margin:0.5em;
+      flex: 1 0 0;
+      
+
+    }
+            img{
+                max-width: 1000px;
+            }
+            @media screen and ( max-width:500px)
+            {
+                .flex-container{
+                    flex-direction: column;
+                }
+                #banner{
+                    text-align: center
+                }
+            }
+</style>
+    </head>
+    <body>
+        <img src="blackandwhiteflowers.png">
+        <div id='banner'>
+            <h1> project 5
+        </h1>
+        </div>
+        <div class="flex-container">
+        
+        <div class="box 1">
+            <h2> Box 1
+        </h2>
+            
+            <p>
+            
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+            </p>
+            
+        </div>
+        <div class="box 2">
+            <h2> Box 2
+        </h2>
+            <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+            </p>
+        
+        </div>
+         <div class="box 3">
+             <h2> Box 3
+        </h2>
+             <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+            </p>
+        
+        </div>
+            </div>
+        </body>
+</html>
